@@ -123,3 +123,28 @@ span {
   font-size: 0.9rem;
   font-weight: 700;
 }
+
+/* MAIN DIV */
+.hero-section {
+  background-image: url("main.jpg");
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-bottom: 25px;
+}
+.hero-msg a {
+  color: #007185;
+  text-decoration: none;
+}
