@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #548687;
+  text-align: center;
+  /* used to horizontally center inline content (like text or inline elements) within a block-level container (like a <div>). */
+}
+.container {
+  height: 70vh;
+  /* It means 70% of view port height. It is dynamic height that means no matter how much visible the page is, 70% is occupied by "container" */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vmin; /* As the "game div" is inside the "container div", it means.... */
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  /* take it as word wrap, it means if space it not there, then content are showin in next line */
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.75);
+  font-size: 8vmin;
+  color: #b0413e;
+  background-color: #ffffc7;
+}
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: white;
+  border-radius: 0.77rem;
+  border: none;
+  box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.75);
+}
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: white;
+  border-radius: 0.77rem;
+  border: none;
+}
+#msg {
+  color: #ffffc7;
+  font-size: 5vmin;
+}
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.hide {
+  display: none;
+}
