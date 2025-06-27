@@ -1,1 +1,1 @@
-This repository showcases a collection of diverse projects built using HTML, CSS, and JavaScript, highlighting core web development concepts and creativity.
+This repository showcases a range of projects I have worked on, demonstrating my skills and experience in HTML, CSS and JavaScripts.
