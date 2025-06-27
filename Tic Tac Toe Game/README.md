@@ -1,4 +1,4 @@
-![screenshot1](https://github.com/user-attachments/assets/bc72bf81-dcab-42c1-a764-4559d68ed5d7)
+![screenshot1](https://github.com/user-attachments/assets/89b59b11-37d0-489c-999f-948c2b9c1812)
 
 This is a Tic Tac Toe, 2 players game.
 
